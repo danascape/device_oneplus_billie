@@ -25,7 +25,6 @@ persist.camera.assert.panic=true
 persist.vendor.camera.privapp.list=com.oneplus.factorymode,com.oneplus.camera,com.oem.autotest,com.oneplus.healthcheck
 persist.camera.privapp.list=com.oneplus,com.oem.autotest,com.oplus.camera
 ro.opcamera.support=true
-vendor.camera.aux.packagelist=com.oneplus.factorymode,com.oneplus.camera,com.oem.autotest,com.oneplus.healthcheck
 
 # Charger
 persist.sys.chgdisabled=0

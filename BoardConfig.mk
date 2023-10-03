@@ -113,6 +113,7 @@ BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 # GOOGLE: workaround for https://android-review.googlesource.com/c/platform/system/sepolicy/+/1532995
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
+BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
 
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true

@@ -7,6 +7,7 @@
 
 # HALs
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.billie                                    u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.oneplus-libperfmgr                                    u:object_r:hal_power_default_exec:s0
 
 # HALs - OnePlus
 /(vendor|system/vendor)/bin/hw/vendor\.oneplus\.hardware\.camera@1\.0-service                                      u:object_r:hal_cameraHIDL_default_exec:s0

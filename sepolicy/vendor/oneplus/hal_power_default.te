@@ -6,3 +6,5 @@ rw_dir_file(hal_power_default, vendor_sysfs_devfreq)
 rw_dir_file(hal_power_default, vendor_sysfs_graphics)
 rw_dir_file(hal_power_default, vendor_sysfs_kgsl)
 rw_dir_file(hal_power_default, vendor_sysfs_scsi_host)
+
+set_prop(hal_power_default, vendor_powerhal_prop)

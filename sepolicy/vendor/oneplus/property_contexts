@@ -8,3 +8,6 @@ persist.vendor.sys.fp.                                    u:object_r:vendor_fp_p
 ro.boot.prmec                                    u:object_r:exported_default_prop:s0
 ro.boot.prmfc                                    u:object_r:boottime_prop:s0
 ro.boot.prmuc                                    u:object_r:boottime_prop:s0
+
+# Power
+vendor.powerhal.                                    u:object_r:vendor_powerhal_prop:s0

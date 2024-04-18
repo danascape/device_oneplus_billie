@@ -466,13 +466,12 @@ PRODUCT_COPY_FILES += \
 # Partitions - Dynamic
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Perf
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.2.vendor
-
 # Power
+$(call inherit-product, hardware/oneplus/libqti-perfd-client/libqti-perfd-client.mk)
+$(call inherit-product, hardware/oneplus/power-libperfmgr/power-libperfmgr.mk)
+
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti
+    android.hardware.power@1.2.vendor
 
 # Public Libraries
 PRODUCT_COPY_FILES += \

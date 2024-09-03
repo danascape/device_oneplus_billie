@@ -92,6 +92,12 @@ vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
+# Audio-Hardware
+vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/audio.primary.lito.so
+vendor/lib64/hw/audio.primary.default.so
+vendor/lib64/hw/audio.primary.lito.so
+
 # Audio firmware
 vendor/firmware/tfa98xx.cnt
 

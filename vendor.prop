@@ -147,7 +147,6 @@ ro.incremental.enable=1
 
 # Media
 debug.stagefright.omx_default_rank=0
-media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 debug.stagefright.ccodec=4
 
 # Netflix

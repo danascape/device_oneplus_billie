@@ -81,6 +81,14 @@ function blob_fixup() {
         system_ext/lib64/lib-imsvideocodec.so)
             grep -q libgui_shim.so "${2}" || "${PATCHELF}" --add-needed libgui_shim.so "${2}"
         ;;
+        vendor/lib64/hw/com.qti.chi.override.so)
+            grep -q libcamera_metadata_shim.so "${2}" || "${PATCHELF}" --add-needed libcamera_metadata_shim.so "${2}"
+            sed -i "s/com.oem.autotest/\x00om.oem.autotest/" "${2}"
+            ;;
+        vendor/lib64/hw/com.qti.chi.override.bitra.so)
+            grep -q libcamera_metadata_shim.so "${2}" || "${PATCHELF}" --add-needed libcamera_metadata_shim.so "${2}"
+            sed -i "s/com.oem.autotest/\x00om.oem.autotest/" "${2}"
+            ;;
     esac
 }
 

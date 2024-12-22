@@ -231,6 +231,7 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    libcamera_metadata_shim \
     libstdc++_vendor
 
 PRODUCT_PACKAGES += \
